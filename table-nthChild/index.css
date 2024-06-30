@@ -1,0 +1,31 @@
+table {
+  margin-bottom: 5%;
+}
+
+td,
+th {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #838383;
+  padding: 8px;
+}
+
+.row-1 td:first-child {
+  background-color: blueviolet;
+}
+
+.row-2 td:nth-child(2) {
+  background-color: blueviolet;
+}
+
+.row-3 td:nth-child(3) {
+  background-color: blueviolet;
+}
+
+.row-4 td:nth-child(4) {
+  background-color: blueviolet;
+}
+
+.row-5 td:last-child {
+  background-color: blueviolet;
+}

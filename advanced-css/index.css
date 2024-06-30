@@ -1,0 +1,98 @@
+/* Fonts downladed from google and used */
+@font-face {
+  font-family: CostomFont;
+  src: url(./fonts/PlaywriteNGModern-VariableFont_wght.ttf);
+}
+
+p {
+  font-family: CostomFont;
+  padding-bottom: 5%;
+}
+/* Fonts downladed from google and used */
+
+/* Color change Hover */
+#color-change {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  transition: background-color 2s;
+  margin-bottom: 5%;
+}
+
+#color-change:hover {
+  background-color: blueviolet;
+}
+/* Color change Hover */
+
+/* Rainbow colors change */
+#rainbow-div {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  animation: rainbow 3s infinite;
+  margin-bottom: 5%;
+}
+
+@keyframes rainbow {
+  0% {
+    background-color: yellow;
+  }
+  30% {
+    background-color: green;
+  }
+  50% {
+    background-color: aqua;
+  }
+  70% {
+    background-color: orange;
+  }
+  100% {
+    background-color: rgb(247, 6, 55);
+  }
+}
+/* Rainbow colors change */
+
+/* Moving Ball */
+#transform-animation {
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  width: 300px;
+  height: 300px;
+  background-image: url("https://cdn.prod.website-files.com/5f778340ed26b167bd087abe/634eb0ac39f5e670485a3b3d_soccer%20ball.png");
+  background-size: cover;
+  animation: ball 7s infinite;
+}
+
+@keyframes ball {
+  0% {
+    transform: translateX(0px) rotate(0deg);
+  }
+
+  50% {
+    transform: translateX(1300px) rotate(360deg);
+  }
+
+  100% {
+    transform: translateX(0px) rotate(-360deg);
+  }
+}
+/* Moving Ball */
+
+/* Table nthChild odd/even */
+table {
+  width: 800px;
+  border-collapse: collapse;
+  margin-bottom: 5%;
+}
+
+td,
+th {
+  border: 1px solid #838383;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgreen;
+}
+/* Table nthChild odd/even */
